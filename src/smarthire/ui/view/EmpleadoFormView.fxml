@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="smarthire.ui.controller.EmpleadoFormController">
+
+    <center>
+        <GridPane hgap="10" vgap="10">
+        <padding>
+            <Insets top="20" right="20" bottom="20" left="20"/>
+        </padding>
+
+            <Label text="ID:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtId" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+            <Label text="Nombre:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtNombre" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+            <Label text="Edad:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtEdad" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+            <Label text="Área:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtArea" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+            <Label text="Experiencia:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtExperiencia" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+            <Label text="Evaluaciones:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtEvaluaciones" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+        </GridPane>
+    </center>
+
+    <bottom>
+        <HBox spacing="10" alignment="center">
+        <padding>
+            <Insets top="10" right="10" bottom="10" left="10"/>
+        </padding>
+            <Button text="Guardar" onAction="#onGuardar"/>
+            <Button text="Cancelar" onAction="#onCancelar"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>
