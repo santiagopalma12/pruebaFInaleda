@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="smarthire.ui.controller.VistaPrincipalController">
+
+    <left>
+        <VBox spacing="12" alignment="TOP_CENTER" style="-fx-padding: 15; -fx-background-color: #f4f4f4;">
+            <Button text="Gestión de Empleados" onAction="#irGestionEmpleados" maxWidth="150"/>
+            <Button text="Red de Colaboración" onAction="#irRedColaboracion" maxWidth="150"/>
+            <Button text="Análisis Inteligente" onAction="#irAnalisis" maxWidth="150"/>
+        </VBox>
+    </left>
+
+    <center>
+        <StackPane fx:id="contenedorCentral" style="-fx-padding: 10;"/>
+    </center>
+</BorderPane>
