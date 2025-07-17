@@ -1,0 +1,59 @@
+ID,Nombre,Edad,Experiencia,Evaluaciones,Area,RutaFoto,Habilidades
+E001,Santiago Palma,28,8,95,Desarrollo Full-Stack,,Java;Spring Framework;React;SQL
+E002,German Chipana,26,6,88,Desarrollo Backend,,Python;Django;PostgreSQL;RESTful APIs
+E003,Edson Subia,29,9,92,Arquitectura de Software,,Software Architecture;System Design;Microservices;Docker
+E004,Leonardo Baca,24,4,85,Desarrollo Frontend,,JavaScript;React;TypeScript;CSS;HTML
+E005,Giovanni Mejia,31,10,98,Liderazgo Técnico,,Team Leadership;Project Management;Agile Methodologies;Scrum Master
+E006,Emanuel Hilacondo,25,5,89,Desarrollo Móvil,,Kotlin;Java;Android
+E007,Fabricio Layme,27,7,91,DevOps,,CI/CD;Docker;Kubernetes;Google Cloud Platform
+E008,Mauro Sullca,30,9,94,Data Science,,Python;SQL;Data Structures;Algorithms
+E009,Ana Torres,34,12,96,RRHH,,Public Speaking;Project Management;Team Leadership
+E010,Carlos Rivas,22,2,80,Desarrollo Frontend,,Vue.js;JavaScript;SASS
+E011,Beatriz Mora,38,15,97,Gestión de Proyectos,,Project Management;Scrum Master;Agile Methodologies
+E012,David Campos,29,7,90,Desarrollo Backend,,Go;Microservices;RESTful APIs
+E013,Elena Navarro,26,4,86,Diseño UX/UI,,Figma;CSS;HTML
+E014,Fernando Arias,32,10,93,Base de Datos,,SQL;PostgreSQL;Oracle DB;MongoDB
+E015,Gabriela Soto,23,1,78,QA,,Integration Testing;Unit Testing
+E016,Hugo Vargas,40,18,99,CTO,,Software Architecture;Team Leadership;System Design
+E017,Isabel Flores,28,6,88,Desarrollo Full-Stack,,Node.js;Express.js;React;MongoDB
+E018,Javier Ortiz,25,3,82,Desarrollo Móvil,,React Native;TypeScript
+E019,Karla Méndez,33,11,95,Product Owner,,Agile Methodologies;Project Management
+E020,Luis Jiménez,27,5,87,Desarrollo Backend,,C#;.NET;Azure
+E021,Marcela Cruz,29,7,90,Data Science,,Python;Algorithms;Machine Learning
+E022,Nicolás Peña,24,2,81,Desarrollo Frontend,,Angular;TypeScript;SASS
+E023,Olivia Reyes,35,12,96,Arquitectura Cloud,,AWS;Azure;System Design
+E024,Pablo Herrera,28,6,89,DevOps,,Git;CI/CD;Linux
+E025,Quintina Solis,30,8,91,Desarrollo Backend,,Java;Spring Framework;Microservices
+E026,Raúl Castillo,26,4,84,Desarrollo Full-Stack,,JavaScript;Node.js;Vue.js
+E027,Sofía Espinoza,31,9,94,QA,,Test-Driven Development;Integration Testing
+E028,Tomás Guerrero,27,5,88,Base de Datos,,MySQL;SQL;NoSQL
+E029,Úrsula Paredes,36,13,97,RRHH,,Public Speaking;Liderazgo
+E030,Víctor Morales,23,1,79,Soporte TI,,Linux;Problem Solving
+E031,Wendy Ramos,29,7,92,Desarrollo Frontend,,React;CSS;Tailwind CSS
+E032,Ximena Núñez,25,3,83,Data Analyst,,SQL;Python;Excel
+E033,Yahir Acuña,32,10,95,Liderazgo Técnico,,Team Leadership;Scrum Master
+E034,Zoe Benítez,28,6,90,Desarrollo Backend,,Rust;Go;RESTful APIs
+E035,Adrián Lagos,27,5,87,DevOps,,Docker;Kubernetes;Git
+E036,Bárbara Ponce,24,2,82,Diseño Gráfico,,Photoshop;Illustrator
+E037,César Durán,34,12,96,Gestión de Proyectos,,Project Management;Agile Methodologies
+E038,Daniela Ríos,29,7,91,Desarrollo Full-Stack,,Python;Django;React
+E039,Esteban Salgado,26,4,85,Desarrollo Móvil,,Swift;Kotlin
+E040,Fabiola Vega,31,9,93,Base de Datos,,Oracle DB;SQL;Performance Tuning
+E041,Gabriel Ibáñez,22,1,77,Junior Developer,,HTML;CSS;JavaScript
+E042,Heidi Figueroa,37,14,98,Arquitectura de Software,,Software Architecture;System Design
+E043,Iván Cornejo,30,8,92,Desarrollo Backend,,Java;Microservices;Kafka
+E044,Jimena Aburto,25,3,84,QA,,Unit Testing;Selenium
+E045,Kevin Lira,28,6,89,Desarrollo Frontend,,Vue.js;TypeScript;GraphQL
+E046,Lorena Parra,33,11,95,Product Manager,,Project Management;Market Research
+E047,Mario Zúñiga,27,5,88,DevOps,,AWS;CI/CD;Terraform
+E048,Natalia Orellana,29,7,90,Data Science,,Python;R;Statistics
+E.49,Oscar Cardenas,24,2,80,Desarrollo Backend,,Node.js;Express.js
+E050,Patricia Valdés,35,12,97,Liderazgo,,Team Leadership;Public Speaking
+E051,Ricardo Tapia,30,8,91,Desarrollo Full-Stack,,C#;Angular;SQL
+E052,Sandra Yáñez,26,4,86,Desarrollo Frontend,,React;SASS;Webpack
+E053,Sergio Rojas,32,10,94,Arquitectura Cloud,,Google Cloud Platform;Kubernetes
+E054,Tania Bustos,28,6,88,QA,,Integration Testing;Cypress
+E055,Ulises Godoy,38,15,99,Director de Ingeniería,,Software Architecture;Team Leadership
+E056,Valeria Pino,23,1,78,Diseño UX/UI,,Figma;User Research
+E057,Walter Jara,29,7,92,Desarrollo Backend,,Python;Flask;MongoDB
+E058,Xenia Castro,27,5,89,Desarrollo Móvil,,Flutter;Dart

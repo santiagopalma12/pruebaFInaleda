@@ -1,0 +1,52 @@
+AWS
+Agile Methodologies
+Algorithms
+Angular
+Azure
+C#
+C++
+CI/CD
+CSS
+Data Structures
+Django
+Docker
+Express.js
+Flask
+Git
+Go
+Google Cloud Platform
+GraphQL
+HTML
+Integration Testing
+Java
+JavaScript
+Kotlin
+Kubernetes
+Linux
+Microservices
+MongoDB
+MySQL
+NoSQL
+Node.js
+Oracle DB
+PostgreSQL
+Problem Solving
+Project Management
+Public Speaking
+Python
+RESTful APIs
+React
+Rust
+SASS
+SQL
+Scala
+Scrum Master
+Software Architecture
+Spring Framework
+System Design
+Tailwind CSS
+Team Leadership
+Test-Driven Development
+TypeScript
+Unit Testing
+Vue.js

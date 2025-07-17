@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="smarthire.ui.controller.EmpleadoFormController">
+
+    <center>
+        <GridPane hgap="10" vgap="10">
+        <padding>
+            <Insets top="20" right="20" bottom="20" left="20"/>
+        </padding>
+
+            <Label text="ID:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtId" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+            <Label text="Nombre:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtNombre" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+            <Label text="Edad:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtEdad" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+            <Label text="Área:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtArea" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+            <Label text="Experiencia:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtExperiencia" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+            <Label text="Evaluaciones:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+            <TextField fx:id="txtEvaluaciones" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+            <Separator GridPane.rowIndex="6" GridPane.columnIndex="0" GridPane.columnSpan="2">
+                <GridPane.margin>
+                    <Insets top="15.0" bottom="5.0" />
+                </GridPane.margin>
+            </Separator>
+            <Label text="Gestión de Habilidades" style="-fx-font-weight: bold; -fx-font-size: 14px;" GridPane.rowIndex="7" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+
+            <Label text="Añadir Habilidad:" GridPane.rowIndex="8" GridPane.columnIndex="0"/>
+            <!-- EL fx:id ha sido ELIMINADO de este HBox -->
+            <HBox spacing="10.0" GridPane.rowIndex="8" GridPane.columnIndex="1">
+                <children>
+                    <TextField fx:id="habilidadTextField" prefWidth="180.0" promptText="Escriba para buscar..." />
+                    <Button fx:id="addHabilidadButton" onAction="#handleAddHabilidad" text="Añadir" />
+                </children>
+            </HBox>
+            
+            <!-- El fx:id ha sido AÑADIDO a este ListView -->
+            <ListView fx:id="sugerenciasListView" prefHeight="80.0" visible="false" GridPane.rowIndex="9" GridPane.columnIndex="1"/>
+
+            <Label text="Habilidades Asignadas:" GridPane.rowIndex="10" GridPane.columnIndex="0" GridPane.valignment="TOP">
+                 <GridPane.margin>
+                    <Insets top="5.0" />
+                </GridPane.margin>
+            </Label>
+            <ListView fx:id="habilidadesAsignadasListView" prefHeight="100.0" GridPane.rowIndex="10" GridPane.columnIndex="1"/>
+            
+            <Separator GridPane.rowIndex="11" GridPane.columnIndex="0" GridPane.columnSpan="2">
+                <GridPane.margin>
+                    <Insets top="15.0" bottom="5.0" />
+                </GridPane.margin>
+            </Separator>
+            <Label text="Foto de Perfil:" GridPane.rowIndex="12" GridPane.columnIndex="0"/>
+            <HBox spacing="10" alignment="CENTER_LEFT" GridPane.rowIndex="12" GridPane.columnIndex="1">
+                <ImageView fx:id="imgPreview" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+                <Button text="Seleccionar Foto..." onAction="#onSeleccionarFoto"/>
+            </HBox>
+            
+        </GridPane>
+    </center>
+
+    <bottom>
+        <HBox spacing="10" alignment="center">
+        <padding>
+            <Insets top="10" right="10" bottom="10" left="10"/>
+        </padding>
+            <Button text="Guardar" onAction="#onGuardar"/>
+            <Button text="Cancelar" onAction="#onCancelar"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

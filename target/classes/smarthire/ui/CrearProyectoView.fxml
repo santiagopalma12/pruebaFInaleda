@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" spacing="15.0" style="-fx-background-color: #f8f9fa;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smarthire.ui.controller.CrearProyectoController">
+   <children>
+      <Label text="Recomendador de Equipo Ideal">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      
+      <VBox maxWidth="500.0" spacing="10.0" style="-fx-border-color: #ced4da; -fx-padding: 15; -fx-border-radius: 5;">
+         <children>
+            <Label text="1. Añada las Habilidades Requeridas para el Proyecto:">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_LEFT" spacing="10.0">
+               <children>
+                  <TextField fx:id="habilidadTextField" prefWidth="250.0" promptText="Escriba para buscar habilidades..." />
+                  <Button fx:id="addHabilidadButton" onAction="#handleAddHabilidad" text="Añadir" />
+               </children>
+            </HBox>
+            <ListView fx:id="sugerenciasListView" prefHeight="80.0" visible="false" />
+            <Label text="Habilidades Seleccionadas:" />
+            <ListView fx:id="habilidadesSeleccionadasListView" prefHeight="100.0" />
+         </children>
+      </VBox>
+      
+      <VBox maxWidth="500.0" spacing="10.0" style="-fx-border-color: #ced4da; -fx-padding: 15; -fx-border-radius: 5;">
+         <children>
+            <Label text="2. Seleccione el Tamaño del Equipo:">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="tamanoEquipoSpinner" editable="true" initialValue="3" max="10" min="1" prefWidth="100.0" />
+         </children>
+      </VBox>
+      
+      <Button fx:id="recomendarButton" mnemonicParsing="false" onAction="#handleRecomendarEquipo" style="-fx-background-color: #007bff; -fx-text-fill: white; -fx-font-size: 18px;" text="Recomendar Equipo Ideal">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
